@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-11-02",
+  "substantive_guides": 5,
+  "unique_gameplay_screenshots": 7,
+  "covered_guides": 5,
+  "pages": [
+    {
+      "title": "Ride An Egg beginner guide",
+      "url": "https://www.rideanegg.wiki/guides/beginner-guide/",
+      "before": 0,
+      "after": 1,
+      "images": [
+        {
+          "asset": "/images/gameplay/return-chase.webp",
+          "section": "first-run"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "title": "Speed and luck: planning safer egg runs",
+      "url": "https://www.rideanegg.wiki/guides/speed-and-luck/",
+      "before": 0,
+      "after": 2,
+      "images": [
+        {
+          "asset": "/images/gameplay/farther-run.webp",
+          "section": "distance"
+        },
+        {
+          "asset": "/images/gameplay/treadmill-training.webp",
+          "section": "training"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "title": "Animals, eggs and offline cash",
+      "url": "https://www.rideanegg.wiki/guides/animals-and-cash/",
+      "before": 0,
+      "after": 2,
+      "images": [
+        {
+          "asset": "/images/gameplay/animal-pen-income.webp",
+          "section": "income"
+        },
+        {
+          "asset": "/images/gameplay/place-secured-egg.webp",
+          "section": "growth-hatch"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "title": "Ride An Egg codes and Halloween status",
+      "url": "https://www.rideanegg.wiki/guides/codes-and-updates/",
+      "before": 0,
+      "after": 1,
+      "images": [
+        {
+          "asset": "/images/gameplay/halloween-entry.webp",
+          "section": "halloween"
+        }
+      ],
+      "missing_reason": null
+    },
+    {
+      "title": "Ride An Egg game passes explained",
+      "url": "https://www.rideanegg.wiki/guides/game-passes/",
+      "before": 0,
+      "after": 1,
+      "images": [
+        {
+          "asset": "/images/gameplay/ready-egg-hatch.webp",
+          "section": "choose"
+        }
+      ],
+      "missing_reason": null
+    }
+  ]
+}

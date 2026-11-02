@@ -1,1 +1,113 @@
-[]
+[
+  {
+    "asset": "/images/gameplay/return-chase.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=7",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:07",
+    "page_id": "beginner-guide",
+    "text_block_id": "first-run",
+    "fact_ids": [
+      "FACT-return-chase"
+    ],
+    "shot_ids": [
+      "SHOT-return-chase"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/treadmill-training.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=13",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:13",
+    "page_id": "speed-and-luck",
+    "text_block_id": "training",
+    "fact_ids": [
+      "FACT-treadmill-training"
+    ],
+    "shot_ids": [
+      "SHOT-treadmill-training"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/farther-run.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=16",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:16",
+    "page_id": "speed-and-luck",
+    "text_block_id": "distance",
+    "fact_ids": [
+      "FACT-farther-run"
+    ],
+    "shot_ids": [
+      "SHOT-farther-run"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/place-secured-egg.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=8",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:08",
+    "page_id": "animals-and-cash",
+    "text_block_id": "growth-hatch",
+    "fact_ids": [
+      "FACT-place-secured-egg"
+    ],
+    "shot_ids": [
+      "SHOT-place-secured-egg"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/animal-pen-income.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=22",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:22",
+    "page_id": "animals-and-cash",
+    "text_block_id": "income",
+    "fact_ids": [
+      "FACT-animal-pen-income"
+    ],
+    "shot_ids": [
+      "SHOT-animal-pen-income"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/ready-egg-hatch.webp",
+    "sourceId": "official-preview-72096712468057",
+    "source_url": "https://assetdelivery.roblox.com/v1/asset/?id=72096712468057#t=9",
+    "source_page_url": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+    "video_id": "72096712468057",
+    "timecode": "00:00:09",
+    "page_id": "game-passes",
+    "text_block_id": "choose",
+    "fact_ids": [
+      "FACT-ready-egg-hatch"
+    ],
+    "shot_ids": [
+      "SHOT-ready-egg-hatch"
+    ]
+  },
+  {
+    "asset": "/images/gameplay/halloween-entry.webp",
+    "sourceId": "youtube-r05H1n5m_ZU",
+    "source_url": "https://www.youtube.com/watch?v=r05H1n5m_ZU&t=120",
+    "video_id": "r05H1n5m_ZU",
+    "timecode": "00:02:00",
+    "page_id": "codes-and-updates",
+    "text_block_id": "halloween",
+    "fact_ids": [
+      "FACT-halloween-entry"
+    ],
+    "shot_ids": [
+      "SHOT-halloween-entry"
+    ]
+  }
+]

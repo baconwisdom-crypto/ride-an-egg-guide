@@ -18,6 +18,15 @@
             "text": "Ride An Egg combines an outward trip with a chase back home. The developer confirms that travelling farther improves luck, animals generate cash and treadmills train speed. Start by learning a return route you can repeat before pushing for a more distant roll."
           },
           {
+            "type": "image",
+            "asset": "/images/gameplay/return-chase.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "A collected egg returning along the red lane with the animal behind it.",
+            "caption": "Finish the return trip before planning a longer run.",
+            "width": 640,
+            "height": 360
+          },
+          {
             "type": "list",
             "ordered": true,
             "items": [
@@ -99,6 +108,15 @@
             "text": "The developer explicitly links travelling farther with better luck. Treat distance as a choice with a return-trip cost: you still have to escape after the roll. No official distance-to-luck formula or guaranteed rare-animal threshold was found in the sources reviewed."
           },
           {
+            "type": "image",
+            "asset": "/images/gameplay/farther-run.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "Player travelling along a red lane through a farther desert area.",
+            "caption": "Farther areas extend the trip you must complete before returning.",
+            "width": 640,
+            "height": 360
+          },
+          {
             "type": "paragraph",
             "text": "A practical approach is to establish a repeatable route, train, then test one longer route. Record the visible luck value if the game displays one, together with whether you returned successfully. Compare like-for-like runs instead of treating one rare outcome as proof of a better strategy."
           }
@@ -111,6 +129,15 @@
           {
             "type": "paragraph",
             "text": "Treadmills are the confirmed speed-training system. Find the treadmill at the base and follow its current interaction prompt. Read any price and requirement before choosing an upgrade; the available source material does not establish one universal training cost or optimal upgrade order."
+          },
+          {
+            "type": "image",
+            "asset": "/images/gameplay/treadmill-training.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "Player training on a frozen treadmill beside the base pens.",
+            "caption": "The treadmill displays the speed gained per step and an upgrade offer.",
+            "width": 640,
+            "height": 360
           },
           {
             "type": "list",
@@ -199,6 +226,15 @@
             "text": "The official description confirms that collected animals earn cash and continue earning while you are offline. The official +5 Animal Slots pass describes placing five additional animals in your pen. Together these sources establish the pen as part of the collection and income system."
           },
           {
+            "type": "image",
+            "asset": "/images/gameplay/animal-pen-income.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "Animals in a fenced pen with income labels and an Upgrade Pen sign.",
+            "caption": "Placed animals show income labels inside the pen.",
+            "width": 640,
+            "height": 360
+          },
+          {
             "type": "paragraph",
             "text": "Before replacing an animal, read the income value displayed by the game and compare it with the animal already occupying the slot. Keep the comparison on the same basis. A total balance, an income rate and an offline payout measure different things."
           }
@@ -211,6 +247,15 @@
           {
             "type": "paragraph",
             "text": "The developer sells x2 Growth, described as faster egg growth, and Auto Hatch, described as automatically hatching ready eggs. Auto Grow Eggs is separately described as making eggs ready to hatch when placed. These store descriptions distinguish readiness from the act of hatching."
+          },
+          {
+            "type": "image",
+            "asset": "/images/gameplay/place-secured-egg.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "Egg secured message and prompt to click the base to place the egg.",
+            "caption": "A secured egg still needs to be placed at the base.",
+            "width": 640,
+            "height": 360
           },
           {
             "type": "list",
@@ -318,6 +363,15 @@
             "text": "The official description reviewed on 2 November still announces a live Halloween event. That is an announcement snapshot, not a guarantee that every server or future session has the same event state."
           },
           {
+            "type": "image",
+            "asset": "/images/gameplay/halloween-entry.webp",
+            "sourceId": "youtube-r05H1n5m_ZU",
+            "alt": "Halloween decorated base with a pumpkin EVENT button beside the Animals and Eggs buttons.",
+            "caption": "The seasonal base includes a pumpkin Event entry beside the collection controls.",
+            "width": 1000,
+            "height": 574
+          },
+          {
             "type": "paragraph",
             "text": "An end date, reward list and event-specific progression route were not confirmed. Search results describing Halloween Hollow, nine zones and eight spooky pets were associated with a different developer and Place ID, so those details are excluded from this guide."
           }
@@ -376,7 +430,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "The table records the developer\u9225\u6a9a store descriptions reviewed on 2 November 2026. Prices are a reference snapshot and may vary or change. Confirm the final offer in Roblox. No purchase or pass testing was performed."
+            "text": "The table records the developer's store descriptions reviewed on 2 November 2026. Prices are a reference snapshot and may vary or change. Confirm the final offer in Roblox. No purchase or pass testing was performed."
           },
           {
             "type": "table",
@@ -442,6 +496,15 @@
           {
             "type": "paragraph",
             "text": "For manual waiting, compare growth speed, readiness and automatic hatching separately. For collection space, the additional-slot pass addresses pen capacity. For income, money multipliers describe a cash effect. For rolls, luck and mutation passes describe different kinds of odds."
+          },
+          {
+            "type": "image",
+            "asset": "/images/gameplay/ready-egg-hatch.webp",
+            "sourceId": "official-preview-72096712468057",
+            "alt": "Ready egg with a manual Hatch prompt at the base.",
+            "caption": "A ready egg has a Hatch prompt. Readiness and automatic hatching affect separate steps.",
+            "width": 640,
+            "height": 360
           },
           {
             "type": "paragraph",
