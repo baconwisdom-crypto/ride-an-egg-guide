@@ -48,5 +48,8 @@
     "articleAfterAnswer": false,
     "articleMiddle": false
   },
-  "baseUrl": "https://www.rideanegg.wiki"
+  "baseUrl": "https://www.rideanegg.wiki",
+  "analytics": {
+    "ga4MeasurementId": "G-XMJJGMYERD"
+  }
 }
