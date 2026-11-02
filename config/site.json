@@ -1,0 +1,52 @@
+{
+  "slug": "ride-an-egg",
+  "name": "Ride An Egg",
+  "mark": "R",
+  "source": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+  "gameUrl": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+  "media": "/images/official-hero.webp",
+  "mediaLink": "https://www.roblox.com/games/76406337917543/Ride-An-Egg",
+  "mediaAlt": "Official Ride An Egg promotional artwork",
+  "referenceImages": true,
+  "schemaVersion": 1,
+  "layout": "landing",
+  "storageKey": "ride-an-egg",
+  "language": "en",
+  "previewAds": false,
+  "seo": {
+    "titleSuffix": " | Ride An Egg Wiki",
+    "description": "Ride An Egg guides for the eggs on my mind Roblox game. Learn egg runs, speed training, luck, animal income and current code status."
+  },
+  "theme": {
+    "light": {
+      "bg": "#fff",
+      "fg": "#09090b",
+      "card": "#fff",
+      "muted": "#71717a",
+      "soft": "#f4f4f5",
+      "border": "#e4e4e7",
+      "brand": "hsl(354 72% 52%)",
+      "brand-light": "hsl(354 82% 62%)"
+    },
+    "dark": {
+      "bg": "hsl(220 30% 3%)",
+      "fg": "#fafafa",
+      "card": "hsl(220 25% 8%)",
+      "muted": "hsl(220 10% 60%)",
+      "soft": "hsl(220 20% 12%)",
+      "border": "hsl(220 20% 15%)",
+      "brand": "hsl(354 72% 52%)",
+      "brand-light": "hsl(354 82% 62%)"
+    },
+    "fontFamily": "Arial,Helvetica,sans-serif",
+    "radius": "12px"
+  },
+  "adPlacements": {
+    "homeBanner": false,
+    "homeSidebar": false,
+    "articleLeft": false,
+    "articleAfterAnswer": false,
+    "articleMiddle": false
+  },
+  "baseUrl": "https://www.rideanegg.wiki"
+}

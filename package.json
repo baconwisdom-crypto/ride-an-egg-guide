@@ -1,0 +1,10 @@
+{
+  "name": "valoblox-template",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "build": "node framework/static-build.cjs .",
+    "verify": "npm run check:video-evidence && npm run build",
+    "check:video-evidence": "node framework/check.cjs ."
+  }
+}

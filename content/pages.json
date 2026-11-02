@@ -1,0 +1,474 @@
+[
+  {
+    "id": "beginner-guide",
+    "title": "Ride An Egg beginner guide",
+    "category": "Guides",
+    "description": "Build your first repeatable egg run, return safely and turn collected animals into progress.",
+    "meta": [
+      "Reviewed 2 November 2026",
+      "Independent guide"
+    ],
+    "sections": [
+      {
+        "id": "first-run",
+        "title": "Your first successful run",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ride An Egg combines an outward trip with a chase back home. The developer confirms that travelling farther improves luck, animals generate cash and treadmills train speed. Start by learning a return route you can repeat before pushing for a more distant roll."
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Open the Roblox experience by eggs on my mind using the Play button. Check the developer name because several Roblox games share this title.",
+              "Locate your base and the treadmill, then identify the path back to your base before leaving.",
+              "Attempt a nearby egg run. Follow the interaction prompt shown in your current game client.",
+              "After rolling, concentrate on returning alive while the animals chase you.",
+              "Check the result at your base, keep productive animals and use speed training before trying a longer route."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "next-goal",
+        "title": "Choose your next goal",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use your last run to decide what to do next. If you cannot survive the return, train speed and retry a shorter route. If the route is comfortable, test a little farther out for better luck. This is a cautious progression strategy based on the confirmed distance and speed systems; no universal safe distance is established."
+          },
+          {
+            "type": "paragraph",
+            "text": "Avoid changing several things at once. Repeat one route after training so that you can judge whether movement improved. A lucky roll and a successful return are separate parts of the run."
+          }
+        ]
+      },
+      {
+        "id": "base-loop",
+        "title": "Build a base between runs",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Collected animals are the source of cash, including offline cash. The official store also describes placing animals in a pen, growing eggs and hatching ready eggs. Check the current prompts and timers at your own base before assuming an egg is ready."
+          },
+          {
+            "type": "paragraph",
+            "text": "The collection loop gives you two useful goals: survive with your next reward and improve the income you already own. A distant attempt that you repeatedly fail can slow that loop. Return to a route you can finish while training for the next one."
+          }
+        ]
+      },
+      {
+        "id": "stuck",
+        "title": "If progress stalls",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Repeatedly caught: reduce the distance and train on a treadmill.",
+              "Waiting on an egg: read its current growth or hatch prompt. The store distinguishes growth from hatching.",
+              "Little cash: inspect the animals placed in your pen and their displayed income before replacing them.",
+              "Different map or instructions: confirm the developer and Place ID 76406337917543."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Precise treadmill unlock costs, chase speeds and a full animal tier list remain unverified. This guide does not claim an in-game playtest."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "speed-and-luck",
+    "title": "Speed and luck: planning safer egg runs",
+    "category": "Guides",
+    "description": "Understand how distance, treadmill training and the return trip fit together without relying on invented thresholds.",
+    "meta": [
+      "Reviewed 2 November 2026",
+      "Independent guide"
+    ],
+    "sections": [
+      {
+        "id": "distance",
+        "title": "Distance improves luck",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The developer explicitly links travelling farther with better luck. Treat distance as a choice with a return-trip cost: you still have to escape after the roll. No official distance-to-luck formula or guaranteed rare-animal threshold was found in the sources reviewed."
+          },
+          {
+            "type": "paragraph",
+            "text": "A practical approach is to establish a repeatable route, train, then test one longer route. Record the visible luck value if the game displays one, together with whether you returned successfully. Compare like-for-like runs instead of treating one rare outcome as proof of a better strategy."
+          }
+        ]
+      },
+      {
+        "id": "training",
+        "title": "Train speed on treadmills",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Treadmills are the confirmed speed-training system. Find the treadmill at the base and follow its current interaction prompt. Read any price and requirement before choosing an upgrade; the available source material does not establish one universal training cost or optimal upgrade order."
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Finish a route you know.",
+              "Train speed and note the displayed change.",
+              "Retry that same route to judge the return trip.",
+              "Extend the route only when the previous trip feels controllable."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Which bottleneck should you solve?",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "What happens",
+              "Next useful check",
+              "Reason"
+            ],
+            "rows": [
+              [
+                "You keep getting caught",
+                "Train speed and shorten the run",
+                "The return trip is the immediate obstacle."
+              ],
+              [
+                "You return comfortably",
+                "Try a slightly farther roll",
+                "The developer ties distance to luck."
+              ],
+              [
+                "Your cash income feels low",
+                "Review placed animals and displayed income",
+                "Animals provide the cash loop."
+              ],
+              [
+                "You are tempted by a luck pass",
+                "Separate luck from survival",
+                "A luck multiplier does not itself establish a faster return."
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These are planning recommendations, not measured efficiency rankings. A current game prompt takes priority over an older video."
+          }
+        ]
+      },
+      {
+        "id": "luck-pass",
+        "title": "What the luck pass promises",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official store describes x2 Luck as doubling luck on every egg roll. It separately describes x2 Mutations as doubling mutation odds. The two descriptions refer to different quantities. Neither listing establishes the base odds, an exact rare-animal rate or a guaranteed result."
+          },
+          {
+            "type": "paragraph",
+            "text": "You can learn the core route and training loop before evaluating optional passes. Compare the specific obstacle you face with the effect written on the purchase screen. Prices and offers may change."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "animals-and-cash",
+    "title": "Animals, eggs and offline cash",
+    "category": "Guides",
+    "description": "Understand the pen, growth, hatching and income loop, plus the limits of the available evidence.",
+    "meta": [
+      "Reviewed 2 November 2026",
+      "Independent guide"
+    ],
+    "sections": [
+      {
+        "id": "income",
+        "title": "Animals earn your cash",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official description confirms that collected animals earn cash and continue earning while you are offline. The official +5 Animal Slots pass describes placing five additional animals in your pen. Together these sources establish the pen as part of the collection and income system."
+          },
+          {
+            "type": "paragraph",
+            "text": "Before replacing an animal, read the income value displayed by the game and compare it with the animal already occupying the slot. Keep the comparison on the same basis. A total balance, an income rate and an offline payout measure different things."
+          }
+        ]
+      },
+      {
+        "id": "growth-hatch",
+        "title": "Growth and hatching are separate steps",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The developer sells x2 Growth, described as faster egg growth, and Auto Hatch, described as automatically hatching ready eggs. Auto Grow Eggs is separately described as making eggs ready to hatch when placed. These store descriptions distinguish readiness from the act of hatching."
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Return to the base after a run.",
+              "Use the current placement prompt for your egg.",
+              "Inspect the growth or readiness display.",
+              "When ready, use the hatch prompt shown by the game.",
+              "Inspect the animal and the available pen space before deciding what to keep."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "This checklist follows the systems named in the store. Exact interaction keys, durations and placement limits should be read in your current client."
+          }
+        ]
+      },
+      {
+        "id": "offline",
+        "title": "Before leaving the game",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Check which animals are actually placed in the pen.",
+              "Read their displayed income so you have a baseline for your next visit.",
+              "On returning, read any offline reward message and check the balance.",
+              "Keep a note of elapsed time if you want to compare later sessions."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Offline earnings are confirmed. The offline cap, collection method, payout interval and relationship to paid multipliers have not been verified. Do not assume unlimited accumulation or a specific hourly return."
+          }
+        ]
+      },
+      {
+        "id": "fuse",
+        "title": "Fusion and collection limits",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official Auto Fuse pass promises instant fusion completion. That confirms a fusion-related feature, but it does not reveal the recipe, number of animals consumed or resulting multiplier. Read the actual fusion screen before committing valuable animals."
+          },
+          {
+            "type": "paragraph",
+            "text": "No complete, verified animal catalogue or earnings tier list is available in this research set. Choose using current visible income and your available slots instead of an unsupported rarity ranking."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "codes-and-updates",
+    "title": "Ride An Egg codes and Halloween status",
+    "category": "Guides",
+    "description": "Current code evidence, the confirmed event notice and how to avoid mixing up games with the same name.",
+    "meta": [
+      "Reviewed 2 November 2026",
+      "Independent guide"
+    ],
+    "sections": [
+      {
+        "id": "codes",
+        "title": "Codes checked on 2 November 2026",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "No redeemable code was found in the official description reviewed for Ride An Egg by eggs on my mind. No working code is confirmed by this site. This does not prove that a code system cannot exist; it records the available evidence on the review date."
+          },
+          {
+            "type": "paragraph",
+            "text": "A redemption button and its location have not been verified, so this guide does not invent a sequence of menu clicks. If the developer publishes a code, confirm that it belongs to this exact experience and follow the current in-game prompt."
+          }
+        ]
+      },
+      {
+        "id": "find-updates",
+        "title": "Where to check new announcements",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Open the linked official Roblox game page.",
+              "Confirm that the creator is eggs on my mind.",
+              "Read the current description and official social links exposed by Roblox.",
+              "Check the announcement date and any expiry or requirement before trying a code."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Do not import codes from another Ride An Egg game. A shared title is insufficient to establish that the reward or redemption menu applies here."
+          }
+        ]
+      },
+      {
+        "id": "halloween",
+        "title": "Halloween: what is actually confirmed",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The official description reviewed on 2 November still announces a live Halloween event. That is an announcement snapshot, not a guarantee that every server or future session has the same event state."
+          },
+          {
+            "type": "paragraph",
+            "text": "An end date, reward list and event-specific progression route were not confirmed. Search results describing Halloween Hollow, nine zones and eight spooky pets were associated with a different developer and Place ID, so those details are excluded from this guide."
+          }
+        ]
+      },
+      {
+        "id": "identity",
+        "title": "The exact game covered here",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Field",
+              "Verified value"
+            ],
+            "rows": [
+              [
+                "Game",
+                "Ride An Egg"
+              ],
+              [
+                "Developer",
+                "eggs on my mind"
+              ],
+              [
+                "Universe ID",
+                "10767808614"
+              ],
+              [
+                "Place ID",
+                "76406337917543"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Use this identity check whenever a video, code list or walkthrough looks inconsistent with your screen. The other game may have a different map, store and progression system."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "game-passes",
+    "title": "Ride An Egg game passes explained",
+    "category": "Guides",
+    "description": "Compare the effects described in the official store and identify which parts of the game they affect.",
+    "meta": [
+      "Reviewed 2 November 2026",
+      "Independent guide"
+    ],
+    "sections": [
+      {
+        "id": "passes",
+        "title": "Official store snapshot",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The table records the developer’s store descriptions reviewed on 2 November 2026. Prices are a reference snapshot and may vary or change. Confirm the final offer in Roblox. No purchase or pass testing was performed."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Pass",
+              "Snapshot price",
+              "Developer-described effect"
+            ],
+            "rows": [
+              [
+                "Auto Grow Eggs",
+                "249 Robux",
+                "Every egg is ready to hatch the moment you place it!"
+              ],
+              [
+                "x2 Money",
+                "199 Robux",
+                "Get x2 Money!"
+              ],
+              [
+                "x2 Luck",
+                "149 Robux",
+                "Double your luck on every egg roll!"
+              ],
+              [
+                "x2 Mutations",
+                "79 Robux",
+                "Double mutation odds on every egg roll!"
+              ],
+              [
+                "VIP",
+                "79 Robux",
+                "x1.5 Money forever and a [VIP] chat tag!"
+              ],
+              [
+                "Auto Hatch",
+                "39 Robux",
+                "Ready eggs hatch by themselves!"
+              ],
+              [
+                "+5 Animal Slots",
+                "99 Robux",
+                "Place 5 more animals in your pen!"
+              ],
+              [
+                "x2 Growth",
+                "149 Robux",
+                "Eggs grow x2 faster!"
+              ],
+              [
+                "Auto Fuse",
+                "99 Robux",
+                "Every fuse finishes instantly!"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "choose",
+        "title": "Match an effect to the task",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For manual waiting, compare growth speed, readiness and automatic hatching separately. For collection space, the additional-slot pass addresses pen capacity. For income, money multipliers describe a cash effect. For rolls, luck and mutation passes describe different kinds of odds."
+          },
+          {
+            "type": "paragraph",
+            "text": "The store does not establish a best-value ranking. Before evaluating a convenience pass, identify which action currently consumes your time and whether you already have productive animals to benefit from the effect."
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "What these descriptions do not establish",
+        "blocks": [
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "The store text does not provide base mutation odds or a complete hatch table.",
+              "Instant fusion does not disclose a fusion recipe or guarantee an income improvement.",
+              "A money multiplier description does not establish the offline cap.",
+              "A paid feature does not establish the requirements for every free upgrade."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Read the exact purchase dialog and current game instructions. This guide compares written effects and does not promise a particular rare animal, income result or return-trip success."
+          }
+        ]
+      }
+    ]
+  }
+]
