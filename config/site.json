@@ -51,5 +51,13 @@
   "baseUrl": "https://www.rideanegg.wiki",
   "analytics": {
     "ga4MeasurementId": "G-XMJJGMYERD"
+  },
+  "monetization": {
+    "mode": "off",
+    "hosts": [
+      "www.rideanegg.wiki"
+    ],
+    "enableAt": "2026-11-04T17:22:34.380550+08:00",
+    "units": {}
   }
 }
