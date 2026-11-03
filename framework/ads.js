@@ -45,7 +45,7 @@
      const container=doc.createElement('div');container.id=u.containerId;
      // A native container ID must be unique on a page.
      if(doc.getElementById(u.containerId))continue;
-     const script=doc.createElement('script');script.async=true;script.src=u.scriptUrl;
+     const script=doc.createElement('script');script.async=true;script.setAttribute('data-cfasync','false');script.src=u.scriptUrl;
      el.append(container,script);
     }else{
      const [w,h]=sizes[format],frame=doc.createElement('iframe');

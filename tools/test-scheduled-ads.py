@@ -73,6 +73,45 @@ with sync_playwright() as p:
   for width in [1440,1280,1024,768,390,320]:run(slug,width=width)
   if slug!='steal-a-balut':
    for width in [1440,390,320]:run(slug,width=width,kind='home')
+ # Full route/width release matrix uses only isolated build files and intercepted mock ads.
+ from xml.etree import ElementTree as ET
+ routes=[e.text.replace('https://www.rideanegg.wiki/','') for e in ET.parse(ROOT/'out/sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+ matrix=[]
+ for route_path in routes:
+  for width in [1440,1280,1024,768,390,320]:
+   page=browser.new_page(viewport={'width':width,'height':900}); errors=[]; ad_requests=[]
+   page.on('pageerror',lambda e: errors.append(str(e)))
+   def fixture(req):
+    url=req.request.url
+    if url.startswith('https://mock-ads.example/'):
+     ad_requests.append(url);req.fulfill(status=200,content_type='application/javascript',body='document.body.dataset.mockAd="loaded";');return
+    if not url.startswith('https://ads-test.example/'):
+     req.abort();return
+    if req.request.method=='HEAD':
+     req.fulfill(status=200,headers={'Date':format_datetime(datetime.fromtimestamp(NOW/1000,timezone.utc),usegmt=True)});return
+    f=ROOT/'out'/url.split('https://ads-test.example/',1)[1].split('?')[0]
+    if f.is_dir(): f=f/'index.html'
+    if not f.is_file():req.fulfill(status=404);return
+    raw=f.read_bytes()
+    if f.suffix=='.html':
+     raw=re.sub(r'(<script id="site-monetization" type="application/json">).*?(</script>)',lambda m:m[1]+json.dumps(BASE)+m[2],raw.decode(),flags=re.S).encode()
+    req.fulfill(status=200,body=raw,content_type=mimetypes.guess_type(str(f))[0] or 'application/octet-stream')
+   page.route('**/*',fixture)
+   page.goto('https://ads-test.example/'+route_path)
+   for detail in page.locator('main details').all():
+    if detail.get_attribute('open') is None: detail.locator('summary').click()
+   for img in page.locator('img').all(): img.scroll_into_view_if_needed()
+   page.wait_for_timeout(1100)
+   checks=page.evaluate("""()=>({width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,height:document.documentElement.scrollHeight,badImages:[...document.images].filter(x=>!x.complete||!x.naturalWidth).map(x=>x.src),empty:[...document.querySelectorAll('main p')].filter(x=>!x.textContent.trim()).length,tiny:[...document.querySelectorAll('main p')].filter(x=>x.textContent.trim().length===1).length,rail:[...document.querySelectorAll('[data-live-ad=articleLeft]:not([hidden])')].map(x=>({width:x.querySelector('iframe')?.width,height:x.querySelector('iframe')?.height,shellWidth:x.getBoundingClientRect().width}))})""")
+   assert not errors and not checks['overflow'] and not checks['badImages'] and not checks['empty'] and not checks['tiny'],(route_path,width,checks,errors)
+   if width<1280: assert not checks['rail'] and not any('/rail.' in u for u in ad_requests)
+   for rail in checks['rail']:assert rail=={'width':'160','height':'600','shellWidth':192},rail
+   name=(route_path.strip('/').replace('/','-') or 'home')+'-'+str(width)+'.png'
+   page.screenshot(path=str(OUT/name),full_page=True)
+   matrix.append(dict(route=route_path,checks=checks,requests=ad_requests,status='passed',evidence='isolated Chrome with intercepted mock ads'))
+   page.close()
+ (OUT/'layout-matrix.json').write_text(json.dumps(matrix,indent=2),encoding='utf-8')
+ print(f'PASS: {len(matrix)} isolated route/width layout checks.')
  browser.close()
 (OUT/'results.json').write_text(json.dumps(results,indent=2),encoding='utf-8')
 print(f'PASS: {len(results)} Chromium scenarios. Mock ad requests only. Results: {OUT}')

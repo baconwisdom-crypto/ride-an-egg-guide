@@ -53,11 +53,32 @@
     "ga4MeasurementId": "G-XMJJGMYERD"
   },
   "monetization": {
-    "mode": "off",
+    "mode": "scheduled",
     "hosts": [
       "www.rideanegg.wiki"
     ],
     "enableAt": "2026-11-04T17:22:34.380550+08:00",
-    "units": {}
+    "units": {
+      "banner728": {
+        "key": "e37b56ab1f7447b1d71c7df39bda1f46",
+        "scriptUrl": "https://bicea.org/22/e37b56ab1f7447b1d71c7df39bda1f46"
+      },
+      "banner320": {
+        "key": "14b84c199c9e55fa6340e2daf5af6e91",
+        "scriptUrl": "https://bicea.org/22/14b84c199c9e55fa6340e2daf5af6e91"
+      },
+      "rectangle": {
+        "key": "02ab813c72196a02eb1d5768ca98b303",
+        "scriptUrl": "https://bicea.org/22/02ab813c72196a02eb1d5768ca98b303"
+      },
+      "rail": {
+        "key": "c15c4b6bb4339ddf80d0f0744a42fef5",
+        "scriptUrl": "https://bicea.org/22/c15c4b6bb4339ddf80d0f0744a42fef5"
+      },
+      "native": {
+        "containerId": "container-8c1b2ed51282e3efbe0c4021205edec1",
+        "scriptUrl": "https://bicea.org/21/8c1b2ed51282e3efbe0c4021205edec1"
+      }
+    }
   }
 }
