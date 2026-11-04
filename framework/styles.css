@@ -30,3 +30,6 @@
 .live-ad iframe{display:block;margin:auto;max-width:100%}
 .live-ad.ad-rail{display:none;margin:0;width:192px;padding-right:32px;overflow:visible}
 @media(min-width:1280px) and (min-height:700px){.article-shell.live-ads{grid-template-columns:192px minmax(0,1fr);gap:0}.live-ads .live-ad.ad-rail:not([hidden]){display:block}}
+
+/* Keep the live 160x600 creative visible within the article rail. */
+.live-ad.ad-rail>iframe{position:sticky;top:100px}
